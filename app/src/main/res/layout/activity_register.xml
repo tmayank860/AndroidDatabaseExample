@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/editText_username"
+        android:layout_height="wrap_content"
+        android:hint="Enter username"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/editText_password"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Enter Password"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/editText_confirmpassword"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Confirm Password"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/button_register"
+        android:textSize="28dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffff"
+        android:ems="5"
+        android:text="Register"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/button_login"
+        android:textSize="28dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffff"
+        android:ems="5"
+        android:text="Login"/>
+
+
+
+</LinearLayout>
